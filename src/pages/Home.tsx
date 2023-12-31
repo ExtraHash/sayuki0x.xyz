@@ -58,9 +58,7 @@ export function Home() {
             <div className="container mx-auto px-4 bg-white dark:bg-black dark:text-white">
                 <div>
                     <p className="mt-5">
-                        I'm a software engineer, artist, and open source
-                        extremist. I am chronically online, spending most of my
-                        time in the digital world. I've been in cryptocurrency
+                        I'm a software engineer and open source enthusiast. I've been in cryptocurrency
                         development since 2017. More recently I have gotten
                         involved in the NFT space and am currently working at
                         Sudorandom Labs contributing to Sudoswap.
@@ -95,16 +93,6 @@ export function Home() {
                                 rel="noreferrer"
                             >
                                 GitHub
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                className="underline text-pink-400 font-bold"
-                                href="https://soundcloud.com/Sayuki0x"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                SoundCloud
                             </a>
                         </li>
                     </ul>
@@ -162,15 +150,6 @@ export function Home() {
                             description={`A deflationary NFT collection of ${
                                 slugCount || 10000
                             } slugs on the Solana blockchain.`}
-                        />
-                        <ProjectCard
-                            name="Frenly Faces"
-                            url="https://www.frenlyfaces.xyz/"
-                            backgroundColor="#FFF"
-                            externalLinkColor="#000"
-                            image={frenlyLogo}
-                            dates={"Minted 02/2023"}
-                            description={`A 1000 piece hand drawn NFT collection on Canto blockchain.`}
                         />
                     </div>
                 </div>
