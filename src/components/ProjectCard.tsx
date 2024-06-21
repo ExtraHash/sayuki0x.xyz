@@ -12,7 +12,7 @@ export function ProjectCard(props: {
 }) {
     return (
         <div
-            className="rounded bg-slate-100 dark:bg-slate-900 align-middle outline outline-slate-100 dark:outline-slate-900"
+            className="rounded bg-zinc-100 dark:bg-zinc-900 align-middle outline outline-zinc-100 dark:outline-zinc-900"
             style={{}}
         >
             <a
