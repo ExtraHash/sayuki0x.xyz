@@ -8,6 +8,7 @@ export function ProjectCard(props: {
     externalLinkColor: string;
     dates: string;
     description: string;
+    imageSize?: string;
 }) {
     return (
         <div
@@ -35,7 +36,7 @@ export function ProjectCard(props: {
                         className="mx-auto"
                         alt={`${props.name} logo`}
                         style={{
-                            height: `${"40px"}`,
+                            height: `${props.imageSize ?? "40px"}`,
                             width: "auto",
                         }}
                     />

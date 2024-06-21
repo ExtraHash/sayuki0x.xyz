@@ -10,7 +10,7 @@ import sudoLogo from "../assets/sudologo.svg";
 import phaseLogo from "../assets/phaselogo.svg";
 import alignLogo from "../assets/alignlogo.svg";
 import incineratorLogo from "../assets/incineratorlogo.svg";
-import frenlyLogo from "../assets/frenlyfaceslogo.png";
+import basecampLogo from "../assets/basecamplogo.png";
 
 import solSlugsLogo from "../assets/solslugslogo.png";
 import { useEffect, useState } from "react";
@@ -58,10 +58,10 @@ export function Home() {
             <div className="container mx-auto px-4 bg-white dark:bg-black dark:text-white">
                 <div>
                     <p className="mt-5">
-                        I'm a software engineer and open source enthusiast. I've been in cryptocurrency
-                        development since 2017. More recently I have gotten
-                        involved in the NFT space and am currently working at
-                        Sudorandom Labs contributing to Sudoswap.
+                        I'm a software engineer and open source enthusiast. I've
+                        been in cryptocurrency development since 2017. I'm
+                        currently contibuting to Sudoswap, Sol Incinerator, and
+                        Basecamp.
                     </p>
 
                     <ul className="mt-5">
@@ -105,6 +105,15 @@ export function Home() {
                         className={`mt-5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6`}
                     >
                         <ProjectCard
+                            name="Basecamp"
+                            url="https://basecamp.wtf/"
+                            backgroundColor="#000"
+                            externalLinkColor="#FFF"
+                            image={basecampLogo}
+                            dates="05/2024 - Now"
+                            description="Launch ERC20 tokens permissionlessly with no starting liquidity."
+                        />
+                        <ProjectCard
                             name="Sudoswap"
                             url="https://sudoswap.xyz/"
                             backgroundColor="#b5b9ff"
@@ -124,7 +133,7 @@ export function Home() {
                         />
                         <ProjectCard
                             name="Phase Protocol"
-                            url="https://www.phaseprotocol.io/"
+                            url="https://app.phaseprotocol.io/"
                             backgroundColor="#590c34"
                             externalLinkColor="#FFF"
                             image={phaseLogo}
@@ -133,7 +142,7 @@ export function Home() {
                         />
                         <ProjectCard
                             name="Align"
-                            url="https://www.phaseprotocol.io/"
+                            url="https://align.nexus/organizations"
                             backgroundColor="#347473"
                             externalLinkColor="#FFF"
                             image={alignLogo}
